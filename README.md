@@ -9,8 +9,8 @@ This project implements an **RFID-based access control system** using an Arduino
 ---
 
 ## Components Used
-- **Arduino Uno/Nano/Mega**
-- **RFID Module (MFRC522/RC522)**
+- **Arduino Uno**
+- **RFID Module (MFRC522)**
 - **LEDs (Red & Green)**
 - **Buzzer**
 - **RFID Cards & Key Tags**
@@ -22,7 +22,6 @@ This project implements an **RFID-based access control system** using an Arduino
 1. The RFID **scanner detects a card**.
 2. If the **card ID matches** an authorized list, the **green LED blinks**.
 3. If the **card ID is not recognized**, the **red LED blinks** and the **buzzer sounds**.
-4. The system can be expanded for **multiple users & logging access attempts**.
 
 ---
 

@@ -8,6 +8,7 @@ MFRC522 mfrc522(SS_PIN, RST_PIN);  // Create MFRC522 instance
 byte accessUID[4] = {0xBB, 0xA0, 0xC3, 0x1B};
 int greenPin = 7;
 int redPin = 2;
+int buzzerPin = 4;
 void setup() {
   pinMode(greenPin, OUTPUT);
   pinMode(redPin, OUTPUT);
@@ -40,8 +41,10 @@ void loop() {
   } else {
   Serial.println("Acess Denied.");
     digitalWrite(redPin, HIGH);
+    digitalWrite(buzzerPin, HIGH);
   delay(1000);
   digitalWrite(redPin,LOW); 
+  digitalWrite(buzzerPin, LOW);
   }
   mfrc522.PICC_HaltA();
 }

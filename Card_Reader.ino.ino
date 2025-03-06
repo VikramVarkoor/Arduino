@@ -47,4 +47,4 @@ void loop() {
   digitalWrite(buzzerPin, LOW);
   }
   mfrc522.PICC_HaltA();
-} 
+}

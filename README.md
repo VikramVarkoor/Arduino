@@ -26,7 +26,7 @@ This project implements an **RFID-based access control system** using an Arduino
 
 ## Demo Video
 - **Watch the demo**: [Arduino Card Reader](https://www.dropbox.com/scl/fi/om6olsuig0jtwnd22pawi/Arduino_Card_reader.mp4?rlkey=8foh4rz1p7c2j8ta8s4yx5byt&st=lfyvscyu&raw=1)
-- **Watch the demo (with a Servo Motor)**: [Arduino Card Reader with LED, Buzzer, and Servo Motor](https://www.dropbox.com/scl/fi/54g4hv33gukrrjkybgzmc/Arduino_CardReader_with_LED_Buzzer_Sevro_motor.mp4?rlkey=s2l7opba16mn0t2p5arhay9jh&st=fqzd81ih&raw=1)
+- **Watch the demo (with a Servo Motor)**: [Arduino Card Reader with Servo Motor](https://www.dropbox.com/scl/fi/54g4hv33gukrrjkybgzmc/Arduino_CardReader_with_LED_Buzzer_Sevro_motor.mp4?rlkey=s2l7opba16mn0t2p5arhay9jh&st=fqzd81ih&raw=1)
 ---
 
 

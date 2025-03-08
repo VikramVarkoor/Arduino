@@ -2,7 +2,8 @@
 
 This project implements an **RFID-based access control system** using an Arduino. When an **RFID card** is scanned:  
 - **Green LED blinks**, the buzzer remains **silent**, and the **servo gate rotates 90 degrees** if the card is **authorized**.  
-- **Red LED blinks**, the **buzzer sounds**, and the **servo remains still** if the card is **unauthorized**.  
+- **Red LED blinks**, the **buzzer sounds**, and the **servo remains still** if the card is **unauthorized**.
+- The system keeps **track of the number of times the access control system has opened the gate** and **displays the output every 5 minutes**. The counter resets at the end of each 5-minute interval.
 
 ---
 
@@ -21,6 +22,7 @@ This project implements an **RFID-based access control system** using an Arduino
 1. The RFID **scanner detects a card**.
 2. If the **card ID matches** an authorized list, the **green LED blinks**, and the **servo rotates 90 degrees** to open the gate.
 3. If the **card ID is not recognized**, the **red LED blinks**, the **buzzer sounds**, and the **servo remains in its original position**.
+4. Every **5 minutes**, the system **displays the number of times the gate has opened** and **resets the counter**.
    
 ---
 
